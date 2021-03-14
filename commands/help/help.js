@@ -1,7 +1,7 @@
 module.exports = ({
-name: "help",
-code:
-`
+  name: "help",
+  code:
+    `
 $if[$argsCount>=1]
 $reply[$messageID;
 {title:$toLocaleUppercase[$commandInfo[$message[1];name]]}

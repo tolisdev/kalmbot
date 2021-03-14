@@ -1,0 +1,25 @@
+{
+  "name": "KatiNetworkDiscordBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dbd.js": "^2.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolisdev/kalmbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tolisdev/kalmbot/issues"
+  },
+  "homepage": "https://github.com/tolisdev/kalmbot#readme"
+}

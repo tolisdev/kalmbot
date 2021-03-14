@@ -1,11 +1,11 @@
 module.exports = ({
-    name: "ping",
-	aliases: ['pong'],
-	cat: "Bot",
-	sub: "Bot Status",
-	usage: "ping",
-	desc: "Shows Bot Ping",
-	code:`$replaceText[$djsEval[const {MessageEmbed} = require('discord.js')
+  name: "ping",
+  aliases: ['pong'],
+  cat: "Bot",
+  sub: "Bot Status",
+  usage: "ping",
+  desc: "Shows Bot Ping",
+  code: `$replaceText[$djsEval[const {MessageEmbed} = require('discord.js')
  if ($ping > 300) {
  const pingA = new MessageEmbed() 
  .setTitle('Pong! | 🏓')
@@ -40,5 +40,5 @@ module.exports = ({
  $cooldown[3s;You're on cooldown! Please wait %time%.]
 
  $suppressErrors[{color:FF0000}{title:Something went wrong...}{description:If you see this, something probably went wrong. Please immediately report this to the 
-developer!}]` 
+developer!}]`
 });
